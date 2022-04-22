@@ -1,0 +1,23 @@
+.search-box {
+    display: flex;
+    flex-direction: column;
+
+    >.search-box__alcohol {
+        display: flex;
+        justify-content: space-around;
+        margin: 10px;
+    }
+    
+    >.search-box__classic {
+        display: flex;
+        justify-content: space-around;
+        margin: 10px;
+    }
+    
+    >.search-box__acidity {
+        display: flex;
+        justify-content: space-around;
+        margin: 10px;
+    }
+    
+}

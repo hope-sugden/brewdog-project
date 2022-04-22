@@ -1,0 +1,16 @@
+@use "./assets/sass/variables";
+
+.app {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    >.navbar {
+        width: 150px;
+        border: 2px solid red;
+    }
+
+    >.main {
+        border: 2px solid red;
+    }
+}
