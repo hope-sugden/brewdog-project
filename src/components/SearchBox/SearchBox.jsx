@@ -18,7 +18,7 @@ const SearchBox = props => {
         </div>
         
         <div className="search-box__classic">
-            <label htmlFor="">Classis Range</label>
+            <label htmlFor="">Classic Range</label>
             <input type= "checkbox"/>
         </div>
         
