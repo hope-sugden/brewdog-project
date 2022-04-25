@@ -1,11 +1,11 @@
-import React, { useState ,useEffect } from 'react'
+import React from 'react'
 import "./CardList.scss";
 import Card from '../Card/Card';
 
 const CardList = ({filteredBeers}) => {
 
     const beersJSX = filteredBeers.map(beer => {
-        return <Card name={beer.name} tagline={beer.tagline} image={beer.image_url} alcohol={beer.abv}/>
+        return <Card name={beer.name} tagline={beer.tagline} image={beer.image_url} abv={beer.abv} description={beer.description} ph={beer.ph} first_brewed={beer.first_brewed} brewers_tips={beer.first_brewed} />
     })
 
   return (
