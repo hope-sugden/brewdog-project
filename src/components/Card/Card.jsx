@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import MoreInfo from '../MoreInfo/MoreInfo';
 import "./Card.scss";
 
-const Card = ({name,tagline,image,description,ph,first_brewed,abv,brewers_tips}) => {
+const Card = ({name,tagline,image,description,ph,first_brewed,abv,brewers_tips,food_pairing}) => {
     const [showMoreInfo,setShowMoreInfo] = useState(false);
 
     const toggleMoreInfo = () => {
@@ -10,7 +10,7 @@ const Card = ({name,tagline,image,description,ph,first_brewed,abv,brewers_tips})
     }
   return (
     <section className="card">
-        {showMoreInfo && <MoreInfo toggleMoreInfo={toggleMoreInfo} name={name} description={description} ph={ph} first_brewed={first_brewed} abv={abv} brewers_tips={brewers_tips} />}
+        {showMoreInfo && <MoreInfo toggleMoreInfo={toggleMoreInfo} name={name} description={description} ph={ph} first_brewed={first_brewed} abv={abv} brewers_tips={brewers_tips} food_pairing={food_pairing}/>}
         <img src={image} alt="" className='card__image'/>
         <div className="card__content">
             <h2 className="card__name">{name}</h2>

@@ -1,8 +1,9 @@
 @use "../../assets/sass/variables" as *;
 
-main{
-    > h1 {
+.main{
+    > .card__title {
         text-align: center;
+        color:#C8A2C8 ;
     }
     .card-container {
         margin-top: 1rem;
@@ -10,5 +11,7 @@ main{
         grid-template-columns: 1fr 1fr 1fr;
         gap: 1rem;
         justify-items: center;
+        
     }  
+    width: 110%;
 }

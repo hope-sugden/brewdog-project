@@ -3,14 +3,12 @@
 .app {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    // justify-content: space-evenly;
 
     >.navbar {
-        width: 150px;
+        width: 25%;
         border: 2px solid red;
     }
 
-    >.main {
-        border: 2px solid red;
-    }
 }
+

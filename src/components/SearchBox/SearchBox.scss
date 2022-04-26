@@ -2,6 +2,9 @@
     display: flex;
     flex-direction: column;
 
+    >.search-box__search {
+        margin: auto;
+    }
     >.search-box__alcohol {
         display: flex;
         justify-content: space-around;
@@ -19,5 +22,11 @@
         justify-content: space-around;
         margin: 10px;
     }
+    
+}
+.search-box__input {
+    width: 100%;
+    margin-top: 20px;
+    height: 30px;
     
 }
