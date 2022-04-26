@@ -1,6 +1,10 @@
 .search-box {
     display: flex;
     flex-direction: column;
+    position: fixed;
+    width: 20%;
+    border: 5px solid #C8A2C8;
+    height: 300px;
 
     >.search-box__search {
         margin: auto;
@@ -21,6 +25,7 @@
         display: flex;
         justify-content: space-around;
         margin: 10px;
+        margin-bottom: 20px;
     }
     
 }
@@ -29,4 +34,16 @@
     margin-top: 20px;
     height: 30px;
     
+}
+.search-box__filter {
+    margin-left: 15px;
+    margin-top: 20px;
+    font-size: 19px;
+    margin-bottom: 5%;
+}
+.search-box__results {
+    margin-left: 15px;
+    margin-top: 10px;
+    font-size: medium;
+    font-style: italic;
 }

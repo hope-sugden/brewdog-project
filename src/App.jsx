@@ -91,7 +91,7 @@ const App = () => {
   })
   return (
     <div className="app">
-      <Navbar className="navbar" searchTerm = {searchTerm} handleInput = {handleInput} handleAlcoholVolume = {handleAlcoholVolume} handleLowAcidity={handleLowAcidity} handleClassicRange={handleClassicRange}/>
+      <Navbar className="navbar" searchResultCount={filteredBeers.length} searchTerm = {searchTerm} handleInput = {handleInput} handleAlcoholVolume = {handleAlcoholVolume} handleLowAcidity={handleLowAcidity} handleClassicRange={handleClassicRange}/>
       <Main filteredBeers = {filteredBeers} className="main"/>
     </div>
   );
