@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.227ef634.css",
-    "main.js": "/static/js/main.703ac21d.js",
-    "index.html": "/index.html",
-    "main.227ef634.css.map": "/static/css/main.227ef634.css.map",
-    "main.703ac21d.js.map": "/static/js/main.703ac21d.js.map"
+    "main.css": "/hope-sugden/brewdog-project/static/css/main.227ef634.css",
+    "main.js": "/hope-sugden/brewdog-project/static/js/main.703ac21d.js",
+    "index.html": "/hope-sugden/brewdog-project/index.html",
+    "main.227ef634.css.map": "/hope-sugden/brewdog-project/static/css/main.227ef634.css.map",
+    "main.703ac21d.js.map": "/hope-sugden/brewdog-project/static/js/main.703ac21d.js.map"
   },
   "entrypoints": [
     "static/css/main.227ef634.css",
