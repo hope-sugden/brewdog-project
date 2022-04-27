@@ -36,8 +36,8 @@ const App = () => {
     fetch(dataURL)
       .then(response => response.json())
       .then(beerObjects => {
-        filteresBeerObjects(beerObjects);
-          setBeersArr(filteresBeerObjects);
+          const filteredBeers = filteresBeerObjects(beerObjects);
+          setBeersArr(filteredBeers);
       })
 
   }
@@ -57,7 +57,8 @@ const App = () => {
 
   }
   else if(lowAcidity && classicRange) {
-    getBeerDataAndFilter("https://api.punkapi.com/v2/beers?per_page=50&ph_lt=4&brewed_before=01-2010")
+    getBeerDataAndFilter("https://api.punkapi.com/v2/beers?per_page=50&brewed_before=01-2010")
+    console.log("it");
 
   }
   else if(alcoholVolume) {
