@@ -2,7 +2,7 @@
 _This is our fourth project on the _nology course and our first project using React._
 _We were challeged to make a website to display Brewdog Beers by pulling information through from an API. We were also required to add a search bar and 3 filters._
 _I used React, SCSS and JavaScript._
-_This is the link to the website_
+_This is the link to the website https://hope-sugden.github.io/brewdog-project/_
 
 
 
