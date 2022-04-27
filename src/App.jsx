@@ -44,37 +44,37 @@ const App = () => {
 
   useEffect( () => {
     if(alcoholVolume && lowAcidity && classicRange) {
-      getBeerDataAndFilter("https://api.punkapi.com/v2/beers?abv_gt=6&brewed_before=01-2010")
+      getBeerDataAndFilter("https://api.punkapi.com/v2/beers?per_page=50&abv_gt=6&brewed_before=01-2010")
   }
 
   else if(alcoholVolume && lowAcidity) {
-    getBeerDataAndFilter("https://api.punkapi.com/v2/beers?abv_gt=6")
+    getBeerDataAndFilter("https://api.punkapi.com/v2/beers?per_page=50&abv_gt=6")
    
 
   }
   else if(alcoholVolume && classicRange) {
-    getBeerData("https://api.punkapi.com/v2/beers?abv_gt=6&brewed_before=01-2010")
+    getBeerData("https://api.punkapi.com/v2/beers?per_page=50&abv_gt=6&brewed_before=01-2010")
 
   }
   else if(lowAcidity && classicRange) {
-    getBeerDataAndFilter("https://api.punkapi.com/v2/beers?ph_lt=4&brewed_before=01-2010")
+    getBeerDataAndFilter("https://api.punkapi.com/v2/beers?per_page=50&ph_lt=4&brewed_before=01-2010")
 
   }
   else if(alcoholVolume) {
-    getBeerData("https://api.punkapi.com/v2/beers?abv_gt=6")
+    getBeerData("https://api.punkapi.com/v2/beers?per_page=50&abv_gt=6")
     
     }
   else if(lowAcidity) {
     
-      getBeerDataAndFilter("https://api.punkapi.com/v2/beers")
+    getBeerDataAndFilter("https://api.punkapi.com/v2/beers?per_page=50")
   }
   else if(classicRange) {
-      getBeerData("https://api.punkapi.com/v2/beers?brewed_before=01-2010")
+    getBeerData("https://api.punkapi.com/v2/beers?per_page=50&brewed_before=01-2010")
   }
   else {
-    getBeerData("https://api.punkapi.com/v2/beers")
+    getBeerData("https://api.punkapi.com/v2/beers?per_page=50")
   }
-  }, [classicRange,lowAcidity,alcoholVolume,getBeerDataAndFilter]);
+  }, [classicRange,lowAcidity,alcoholVolume]);
 
     
         
