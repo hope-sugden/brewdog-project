@@ -32,6 +32,7 @@ const App = () => {
       })
 
   }
+  // eslint-disable-next-line
   const getBeerDataAndFilter = (dataURL) => {
     fetch(dataURL)
       .then(response => response.json())
@@ -75,7 +76,7 @@ const App = () => {
   else {
     getBeerData("https://api.punkapi.com/v2/beers?per_page=50")
   }
-  }, [classicRange,lowAcidity,alcoholVolume]);
+  }, [classicRange,lowAcidity,alcoholVolume,getBeerDataAndFilter]);
 
     
         
