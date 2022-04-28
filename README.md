@@ -17,8 +17,5 @@ _This is the link to the website https://hope-sugden.github.io/brewdog-project/_
 ### The filters are fixed so will be seen on the lefthand side of the page at all times. However, if using a screen smaller than 750px then the filters will be found at the top of the page. 
 ### I also added in the number of results found which is displayed under the searchbar
 
-## **Limitations**
 
-###
-
-
+<img width="1385" alt="Screenshot 2022-04-28 at 14 50 40" src="https://user-images.githubusercontent.com/100870944/165767833-864182c5-24a1-43b5-9bc5-762a1c4122b8.png">
