@@ -4,7 +4,7 @@ import "./SearchBox.scss";
 
 const SearchBox = ({searchTerm, handleInput,handleAlcoholVolume, handleLowAcidity,handleClassicRange,searchResultCount} ) => {
 
-  const searchResults = searchResultCount == 1 ? "1 beer found" :
+  const searchResults = searchResultCount === 1 ? "1 beer found" :
   (searchResultCount >1 ? searchResultCount +" beers found" : "No match found!")
 
   return (
