@@ -1,20 +1,36 @@
-@use "./assets/sass/variables";
+@use "./assets/sass/variables" as *;
+import 
 
 .app {
     display: flex;
-    flex-direction: row;
-    // justify-content: space-evenly;
-
-    >.navbar {
-        width: 25%;
-       
-    }
-
+    flex-direction: column;
+    
 }
+.navbar {
+    width: 25%;
+}
+.app__body{
+    display: flex;
+ flex-direction: row;
+ // justify-content: space-evenly;  
+ }
 
 @media screen and (max-width:750px) {
     .app {
         flex-direction: column;
         align-items: center;
     }
+}
+
+.app__title {
+    font-family: $font-heading;
+    text-align: center;
+    background-color:#C8A2C8 ;
+    color: white;
+    font-size: 130px;
+    transform: scale(1.5,1);
+    text-shadow: 2px 2px 5px #C8A2C8;
+    position:fixed;
+    width: 100%;
+    margin-bottom: 10px;
 }

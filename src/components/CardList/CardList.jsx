@@ -10,7 +10,6 @@ const CardList = ({filteredBeers, toggleMoreInfo}) => {
 
   return (
     <main className='main'>
-        <h1 className="card__title">Brewdog Beers</h1>
         <div className="card-container">
             {beersJSX}
         </div>

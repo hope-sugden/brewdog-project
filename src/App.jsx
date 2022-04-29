@@ -93,8 +93,12 @@ const App = () => {
   })
   return (
     <div className="app">
-      <Navbar className="navbar" searchResultCount={filteredBeers.length} searchTerm = {searchTerm} handleInput = {handleInput} handleAlcoholVolume = {handleAlcoholVolume} handleLowAcidity={handleLowAcidity} handleClassicRange={handleClassicRange}/>
-      <Main filteredBeers = {filteredBeers} className="main"/>
+       <h1 className="app__title">Brewdog</h1>
+       <div className="app__body">
+        <Navbar className="navbar" searchResultCount={filteredBeers.length} searchTerm = {searchTerm} handleInput = {handleInput} handleAlcoholVolume = {handleAlcoholVolume} handleLowAcidity={handleLowAcidity} handleClassicRange={handleClassicRange}/>
+        <Main filteredBeers = {filteredBeers} className="main"/>
+       </div>
+      
     </div>
   );
 };
