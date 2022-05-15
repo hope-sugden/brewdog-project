@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/brewdog-project/static/css/main.5c5b4629.css",
+    "main.css": "/brewdog-project/static/css/main.165ef7c5.css",
     "main.js": "/brewdog-project/static/js/main.5b875a6d.js",
     "index.html": "/brewdog-project/index.html",
-    "main.5c5b4629.css.map": "/brewdog-project/static/css/main.5c5b4629.css.map",
+    "main.165ef7c5.css.map": "/brewdog-project/static/css/main.165ef7c5.css.map",
     "main.5b875a6d.js.map": "/brewdog-project/static/js/main.5b875a6d.js.map"
   },
   "entrypoints": [
-    "static/css/main.5c5b4629.css",
+    "static/css/main.165ef7c5.css",
     "static/js/main.5b875a6d.js"
   ]
 }
